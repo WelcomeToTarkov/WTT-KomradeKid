@@ -1,0 +1,574 @@
+{
+  "67100048a4fad1310ee4ccf5": {
+    "itemTplToClone": "61605e13ffa6e502ac5e7eef",
+    "overrideProperties": {
+      "Name": "Nintendo Game Boy",
+      "ShortName": "Game Boy",
+      "Description": "The Game Boy is a handheld game console developed by Nintendo, launched in the Japanese home market on April 21, 1989, followed by North America later that year and other territories from 1990 onwards",
+      "Height": 1,
+      "Width": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "Slots": [
+        {
+          "_name": "Cartridge",
+          "_id": "5888956924597752983e182e",
+          "_parent": "gb",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "670fffeedf87b6d12c7c78bf"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "Cable",
+          "_id": "670422da15a92fe61160e5b5",
+          "_parent": "gb",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "6710002fb210b0590e9b2d17",
+                  "67100036ea1e10dfed715a6a",
+                  "6710003d77984a1e010410a1"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "Prefab": {
+        "path": "items/gb_container.bundle",
+        "rcid": ""
+      }
+    },
+    "parentId": "66e42bd851fa456a1ee37885",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "locales": {
+      "en": {
+        "name": "Nintendo Game Boy",
+        "shortName": "Game Boy",
+        "description": "The Game Boy is a handheld game console developed by Nintendo, launched in the Japanese home market on April 21, 1989, followed by North America later that year and other territories from 1990 onwards"
+      }
+    },
+    "fleaPriceRoubles": 301000,
+    "handbookPriceRoubles": 242000,
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": null,
+    "ModdableItemWhitelist": null,
+    "ModdableItemBlacklist": null,
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "6710234f016d8b8534ddc05d_settings": {
+          "loyalLevel": "1",
+          "unlimitedCount": false,
+          "stackObjectsCount": 1
+        },
+        "6710234f016d8b8534ddc05d": [
+          {
+            "count": 1,
+            "_tpl": "BARTER_TETRIZ"
+          },
+          {
+            "count": 3,
+            "_tpl": "BARTER_1GPHONE"
+          }
+        ],
+        "6710693b90b0bd43f37cbd5d_settings": {
+          "loyalLevel": "2",
+          "unlimitedCount": false,
+          "stackObjectsCount": 3
+        },
+        "6710693b90b0bd43f37cbd5d": [
+          {
+            "count": 277088,
+            "_tpl": "MONEY_RUB"
+          }
+        ]
+      },
+      "PEACEKEEPER": {
+        "671069a46da66ba462820cda_settings": {
+          "loyalLevel": "1",
+          "unlimitedCount": false,
+          "stackObjectsCount": 2
+        },
+        "671069a46da66ba462820cda": [
+          {
+            "count": 6500,
+            "_tpl": "MONEY_USD"
+          }
+        ]
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_DEAD_SCAV"
+        ],
+        "Probability": 15
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_DUFFLE_BAG"
+        ],
+        "Probability": 25
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_JACKET"
+        ],
+        "Probability": 18
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_DRAWER"
+        ],
+        "Probability": 5
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_SAFE"
+        ],
+        "Probability": 50
+      }
+    ],
+    "masteries": false,
+    "masterySections": [],
+    "addtoweaponpreset": false,
+    "weaponpresets": [],
+    "addtoSpecialSlots": true
+  },
+  "670fffeedf87b6d12c7c78bf": {
+    "itemTplToClone": "5b099ac65acfc400186331e1",
+    "overrideProperties": {
+      "Name": "gb_cartridge",
+      "ShortName": "gb_cartridge",
+      "Description": "gb_cartridge",
+      "Height": 1,
+      "Width": 1,
+      "RomName": "",
+      "Prefab": {
+        "path": "cartridges/gb_cartridge_gray.bundle",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 1,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsLockedafterEquip": false,
+      "LootExperience": 15,
+      "ExamineExperience": 2,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "RagFairCommissionModifier": 1,
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "DropSoundType": "None",
+      "InsuranceDisabled": false,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "IsAnimated": true,
+      "HideEntrails": false
+    },
+    "parentId": "66f17b4cb59dbccbf12990e6",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "locales": {
+      "en": {
+        "name": "Blank Gameboy Cartridge",
+        "shortName": "GB Cartridge",
+        "description": "Blank Gameboy Cartridge"
+      }
+    },
+    "fleaPriceRoubles": 28420,
+    "handbookPriceRoubles": 22420,
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": null,
+    "ModdableItemWhitelist": null,
+    "ModdableItemBlacklist": null,
+    "addtoTraders": false,
+    "traders": {
+      "MECHANIC": {
+        "671023584898344ab54f0746_settings": {
+          "loyalLevel": "1",
+          "unlimitedCount": false,
+          "stackObjectsCount": 1
+        },
+        "671023584898344ab54f0746": [
+          {
+            "count": 1,
+            "_tpl": "MONEY_RUB"
+          }
+        ]
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": null,
+    "masteries": false,
+    "masterySections": [],
+    "addtoweaponpreset": false,
+    "weaponpresets": []
+  },
+  "6710002fb210b0590e9b2d17": {
+    "itemTplToClone": "5b099ac65acfc400186331e1",
+    "overrideProperties": {
+      "Name": "Worm Light (Yellow)",
+      "ShortName": "Light",
+      "Description": "The Worm Light is an attachment for the Game Boy series of console that add a light source. The worm light is so-called because it can be bent in various positions. ",
+      "Height": 1,
+      "Width": 1,
+      "AccessoryType": "Light",
+      "Prefab": {
+        "path": "lights/gb_light_yellow.bundle",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 1,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsLockedafterEquip": false,
+      "LootExperience": 15,
+      "ExamineExperience": 2,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "RagFairCommissionModifier": 1,
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "DropSoundType": "None",
+      "InsuranceDisabled": false,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "IsAnimated": true,
+      "HideEntrails": false
+    },
+    "parentId": "6704271a4cc9e20c610eb120",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "locales": {
+      "en": {
+        "name": "Worm Light (Yellow)",
+        "shortName": "Light",
+        "description": "The Worm Light is an attachment for the Game Boy series of console that add a light source. The worm light is so-called because it can be bent in various positions. "
+      }
+    },
+    "fleaPriceRoubles": 34880,
+    "handbookPriceRoubles": 28030,
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": null,
+    "ModdableItemWhitelist": null,
+    "ModdableItemBlacklist": null,
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "6710235e76a24ff7ba133e6b_settings": {
+          "loyalLevel": "1",
+          "unlimitedCount": false,
+          "stackObjectsCount": 2
+        },
+        "6710235e76a24ff7ba133e6b": [
+          {
+            "count": 38089,
+            "_tpl": "MONEY_RUB"
+          }
+        ]
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_DEAD_SCAV"
+        ],
+        "Probability": 500
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_DUFFLE_BAG"
+        ],
+        "Probability": 500
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_JACKET"
+        ],
+        "Probability": 500
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_DRAWER"
+        ],
+        "Probability": 500
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_SAFE"
+        ],
+        "Probability": 500
+      }
+    ],
+    "masteries": false,
+    "masterySections": [],
+    "addtoweaponpreset": false,
+    "weaponpresets": []
+  },
+  "6710003d77984a1e010410a1": {
+    "itemTplToClone": "5b099ac65acfc400186331e1",
+    "overrideProperties": {
+      "Name": "Worm Light (Lisa Frank)",
+      "ShortName": "Light",
+      "Description": "The Worm Light is an attachment for the Game Boy series of console that add a light source. The worm light is so-called because it can be bent in various positions. ",
+      "Height": 1,
+      "Width": 1,
+      "AccessoryType": "Light",
+      "Prefab": {
+        "path": "lights/gb_light_cool.bundle",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 1,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsLockedafterEquip": false,
+      "LootExperience": 15,
+      "ExamineExperience": 2,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "RagFairCommissionModifier": 1,
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "DropSoundType": "None",
+      "InsuranceDisabled": false,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "IsAnimated": true,
+      "HideEntrails": false
+    },
+    "parentId": "6704271a4cc9e20c610eb120",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "locales": {
+      "en": {
+        "name": "Worm Light (Lisa Frank)",
+        "shortName": "Light",
+        "description": "The Worm Light is an attachment for the Game Boy series of console that add a light source. The worm light is so-called because it can be bent in various positions. "
+      }
+    },
+    "fleaPriceRoubles": 40101,
+    "handbookPriceRoubles": 36574,
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": null,
+    "ModdableItemWhitelist": null,
+    "ModdableItemBlacklist": null,
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "67102364253197d237165aa5_settings": {
+          "loyalLevel": "3",
+          "unlimitedCount": false,
+          "stackObjectsCount": 1
+        },
+        "67102364253197d237165aa5": [
+          {
+            "count": 39098,
+            "_tpl": "MONEY_RUB"
+          }
+        ]
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_DEAD_SCAV"
+        ],
+        "Probability": 500
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_DUFFLE_BAG"
+        ],
+        "Probability": 500
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_JACKET"
+        ],
+        "Probability": 500
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_DRAWER"
+        ],
+        "Probability": 500
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_SAFE"
+        ],
+        "Probability": 500
+      }
+    ],
+    "masteries": false,
+    "masterySections": [],
+    "addtoweaponpreset": false,
+    "weaponpresets": []
+  },
+  "67100036ea1e10dfed715a6a": {
+    "itemTplToClone": "5b099ac65acfc400186331e1",
+    "overrideProperties": {
+      "Name": "Worm Light (Lisa Frank)",
+      "ShortName": "Light",
+      "Description": "The Worm Light is an attachment for the Game Boy series of console that add a light source. The worm light is so-called because it can be bent in various positions. ",
+      "Height": 1,
+      "Width": 1,
+      "AccessoryType": "Light",
+      "Prefab": {
+        "path": "lights/gb_light_purple.bundle",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 1,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsLockedafterEquip": false,
+      "LootExperience": 15,
+      "ExamineExperience": 2,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "RagFairCommissionModifier": 1,
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "DropSoundType": "None",
+      "InsuranceDisabled": false,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "IsAnimated": true,
+      "HideEntrails": false
+    },
+    "parentId": "6704271a4cc9e20c610eb120",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "locales": {
+      "en": {
+        "name": "Worm Light (Purple)",
+        "shortName": "Light",
+        "description": "The Worm Light is an attachment for the Game Boy series of console that add a light source. The worm light is so-called because it can be bent in various positions. "
+      }
+    },
+    "fleaPriceRoubles": 38880,
+    "handbookPriceRoubles": 34030,
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": null,
+    "ModdableItemWhitelist": null,
+    "ModdableItemBlacklist": null,
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "6710236a2c44f241fbbe14c5_settings": {
+          "loyalLevel": "2",
+          "unlimitedCount": false,
+          "stackObjectsCount": 3
+        },
+        "6710236a2c44f241fbbe14c5": [
+          {
+            "count": 44868,
+            "_tpl": "MONEY_RUB"
+          }
+        ]
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_DEAD_SCAV"
+        ],
+        "Probability": 500
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_DUFFLE_BAG"
+        ],
+        "Probability": 500
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_JACKET"
+        ],
+        "Probability": 500
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_DRAWER"
+        ],
+        "Probability": 500
+      },
+      {
+        "ContainerName": [
+          "LOOTCONTAINER_SAFE"
+        ],
+        "Probability": 500
+      }
+    ],
+    "masteries": false,
+    "masterySections": [],
+    "addtoweaponpreset": false,
+    "weaponpresets": []
+  }
+}
