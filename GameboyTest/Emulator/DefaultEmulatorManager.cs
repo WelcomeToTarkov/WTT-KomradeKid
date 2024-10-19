@@ -39,84 +39,96 @@ internal class MenuSettings
             "Keybindings",
             "Up",
             new KeyboardShortcut(KeyCode.UpArrow),
-            "Key to move Up"
+            new ConfigDescription("Key to move Up", null,
+                new ConfigurationManagerAttributes { Order = 12 })
         );
 
         DownKey = config.Bind(
             "Keybindings",
             "Down",
             new KeyboardShortcut(KeyCode.DownArrow),
-            "Key to move Down"
+            new ConfigDescription("Key to move Down", null,
+                new ConfigurationManagerAttributes { Order = 11 })
         );
 
         LeftKey = config.Bind(
             "Keybindings",
             "Left",
             new KeyboardShortcut(KeyCode.LeftArrow),
-            "Key to move Left"
+            new ConfigDescription("Key to move Left", null,
+                new ConfigurationManagerAttributes { Order = 10 })
         );
 
         RightKey = config.Bind(
             "Keybindings",
             "Right",
             new KeyboardShortcut(KeyCode.RightArrow),
-            "Key to move Right"
+            new ConfigDescription("Key to move Right", null,
+                new ConfigurationManagerAttributes { Order = 9 })
         );
 
         AKey = config.Bind(
             "Keybindings",
             "A Button",
             new KeyboardShortcut(KeyCode.Comma),
-            "Key for A button"
+            new ConfigDescription("Key for A button", null,
+                new ConfigurationManagerAttributes { Order = 8 })
         );
 
         BKey = config.Bind(
             "Keybindings",
             "B Button",
             new KeyboardShortcut(KeyCode.Period),
-            "Key for B button"
+            new ConfigDescription("Key for B button", null,
+                new ConfigurationManagerAttributes { Order = 7 })
         );
 
         StartKey = config.Bind(
             "Keybindings",
             "Start",
             new KeyboardShortcut(KeyCode.Quote),
-            "Key for Start button"
+            new ConfigDescription("Key for Start button", null,
+                new ConfigurationManagerAttributes { Order = 6 })
         );
 
         SelectKey = config.Bind(
             "Keybindings",
             "Select",
             new KeyboardShortcut(KeyCode.Colon),
-            "Key for Select button"
+            new ConfigDescription("Key for Select button", null,
+                new ConfigurationManagerAttributes { Order = 5 })
         );
 
         PowerKey = config.Bind(
             "Keybindings",
             "Power",
             new KeyboardShortcut(KeyCode.P),
-            "Key to toggle power on/off"
+            new ConfigDescription("Key to toggle power on/off", null,
+                new ConfigurationManagerAttributes { Order = 4 })
         );
 
         UnloadCartridgeKey = config.Bind(
             "Keybindings",
             "Unload Cartridge",
             new KeyboardShortcut(KeyCode.U),
-            "Key to unload the cartridge"
+            new ConfigDescription("Key to unload the cartridge", null,
+                new ConfigurationManagerAttributes { Order = 3 })
         );
 
         LoadCartridgeKey = config.Bind(
             "Keybindings",
             "Load Cartridge",
             new KeyboardShortcut(KeyCode.K),
-            "Key to load a new cartridge"
+            new ConfigDescription("Key to load a new cartridge", null,
+                new ConfigurationManagerAttributes { Order = 2 })
         );
 
         UpdateKeybindings = config.Bind(
             "Keybindings",
             "Update Keybindings",
             new KeyboardShortcut(KeyCode.Backslash),
-            "Key to refresh any kebinding changes to current GameBoy"
+            new ConfigDescription("Key to refresh any kebinding changes to current GameBoy", null,
+                new ConfigurationManagerAttributes { Order = 1 })
         );
 
     }
