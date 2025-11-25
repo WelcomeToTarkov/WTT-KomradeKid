@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTT-KomradeKidClientFika", "WTT-KomradeKidClientFika\WTT-KomradeKidClientFika.csproj", "{E983ADB5-85DA-4E3F-9993-95670DDBADD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTT-KomradeKidServer", "WTT-KomradeKidServer\WTT-KomradeKidServer.csproj", "{12B5EC97-B980-4795-AD0D-9BA5A487DB21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTT-KomradeKidClient", "WTT-KomradeKidClient\WTT-KomradeKidClient.csproj", "{8DCAD8F2-3A91-49B5-8B65-B97DD446CEFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		UNITY_EDITOR|Any CPU = UNITY_EDITOR|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E983ADB5-85DA-4E3F-9993-95670DDBADD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E983ADB5-85DA-4E3F-9993-95670DDBADD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E983ADB5-85DA-4E3F-9993-95670DDBADD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E983ADB5-85DA-4E3F-9993-95670DDBADD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E983ADB5-85DA-4E3F-9993-95670DDBADD3}.UNITY_EDITOR|Any CPU.ActiveCfg = UNITY_EDITOR|Any CPU
+		{E983ADB5-85DA-4E3F-9993-95670DDBADD3}.UNITY_EDITOR|Any CPU.Build.0 = UNITY_EDITOR|Any CPU
+		{12B5EC97-B980-4795-AD0D-9BA5A487DB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B5EC97-B980-4795-AD0D-9BA5A487DB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B5EC97-B980-4795-AD0D-9BA5A487DB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B5EC97-B980-4795-AD0D-9BA5A487DB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B5EC97-B980-4795-AD0D-9BA5A487DB21}.UNITY_EDITOR|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B5EC97-B980-4795-AD0D-9BA5A487DB21}.UNITY_EDITOR|Any CPU.Build.0 = Debug|Any CPU
+		{8DCAD8F2-3A91-49B5-8B65-B97DD446CEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCAD8F2-3A91-49B5-8B65-B97DD446CEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCAD8F2-3A91-49B5-8B65-B97DD446CEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCAD8F2-3A91-49B5-8B65-B97DD446CEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCAD8F2-3A91-49B5-8B65-B97DD446CEFC}.UNITY_EDITOR|Any CPU.ActiveCfg = UNITY_EDITOR|Any CPU
+		{8DCAD8F2-3A91-49B5-8B65-B97DD446CEFC}.UNITY_EDITOR|Any CPU.Build.0 = UNITY_EDITOR|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9B478B6-A537-4717-9424-EDB24458F79C}
+	EndGlobalSection
+EndGlobal

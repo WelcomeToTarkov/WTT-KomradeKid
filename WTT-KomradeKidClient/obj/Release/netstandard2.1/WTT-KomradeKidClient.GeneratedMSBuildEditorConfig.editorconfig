@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = KomradeKidClient
+build_property.ProjectDir = Q:\Games\SPT_401\MOD_DEV\WTT-KomradeKid\WTT-KomradeKidClient\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

@@ -1,0 +1,592 @@
+{
+  "670fff8360114b8efbdeb9dc": {
+    "itemTplToClone": "670fffeedf87b6d12c7c78bf",
+    "parentId": "66f17b4cb59dbccbf12990e6",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "cartridges/gb_cartridge_gray.bundle",
+        "rcid": ""
+      },
+      "romName": "",
+      "cartridgeImage": "tetris.png"
+    },
+    "locales": {
+      "en": {
+        "name": "Tetris",
+        "shortName": "Tetris",
+        "description": "Tetris is a puzzle video game created in 1985 by Alexey Pajitnov, a Soviet software engineer."
+      }
+    },
+    "fleaPriceRoubles": 28420,
+    "handbookPriceRoubles": 22420,
+    "addtoModSlots": true,
+    "modSlot": [
+      "cartridge"
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "6710230f8fc2d4c53d3bb225": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": false,
+            "stackObjectsCount": 7
+          },
+          "barters": [
+            {
+              "count": 34420,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_JACKET",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_DRAWER",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_SAFE",
+        "probability": 500
+      }
+    ]
+  },
+  "670fff8360114b8efbdeb9df": {
+    "itemTplToClone": "670fffeedf87b6d12c7c78bf",
+    "parentId": "66f17b4cb59dbccbf12990e6",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "cartridges/gb_cartridge_gray.bundle",
+        "rcid": ""
+      },
+      "romName": "Pocket_Pong.gb",
+      "cartridgeImage": "pong.png"
+    },
+    "locales": {
+      "en": {
+        "name": "Pocket Pong",
+        "shortName": "Pong",
+        "description": "This fan-made version of the classic game Pong is a heartfelt tribute to the early days of video gaming. Recognizing the absence of an official Game Boy version, a dedicated enthusiast took it upon themselves to re-create this ride down nostalgia lane, rectifying a long-standing oversight."
+      }
+    },
+    "fleaPriceRoubles": 23420,
+    "handbookPriceRoubles": 17420,
+    "addtoModSlots": true,
+    "modSlot": [
+      "cartridge"
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "6710230f8fc2d4c53d3bb229": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": false,
+            "stackObjectsCount": 7
+          },
+          "barters": [
+            {
+              "count": 19420,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_JACKET",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_DRAWER",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_SAFE",
+        "probability": 500
+      }
+    ]
+  },
+  "670fffcd4734a4b682fea22a": {
+    "itemTplToClone": "670fffeedf87b6d12c7c78bf",
+    "parentId": "66f17b4cb59dbccbf12990e6",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "cartridges/gb_cartridge_purple.bundle",
+        "rcid": ""
+      },
+      "romName": "",
+      "cartridgeImage": "purpleversion.png"
+    },
+    "locales": {
+      "en": {
+        "name": "Pokémon Purple Version",
+        "shortName": "Pokémon Purple Version",
+        "description": "Pokémon Purple Version is a fan-made recreation of Pokémon Red/Pokémon Blue. It features custom menus, custom starting Pokémon, as well as a slick purple cartridge. Neat!"
+      }
+    },
+    "fleaPriceRoubles": 77090,
+    "handbookPriceRoubles": 73420,
+    "addtoModSlots": true,
+    "modSlot": [
+      "cartridge"
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "67102345682fe4ca5f609e80": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": false,
+            "stackObjectsCount": 1
+          },
+          "barters": [
+            {
+              "count": 87099,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_JACKET",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_DRAWER",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_SAFE",
+        "probability": 50
+      }
+    ]
+  },
+  "670fffcd4734a4b682fea22b": {
+    "itemTplToClone": "670fffeedf87b6d12c7c78bf",
+    "parentId": "66f17b4cb59dbccbf12990e6",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "cartridges/gb_cartridge_transparent.bundle",
+        "rcid": ""
+      },
+      "romName": "",
+      "cartridgeImage": ""
+    },
+    "locales": {
+      "en": {
+        "name": "Blank Transparent Cartridge",
+        "shortName": "Blank Transparent Cartridge",
+        "description": "Blank Transparent Cartridge"
+      }
+    },
+    "fleaPriceRoubles": 58090,
+    "handbookPriceRoubles": 49420,
+    "addtoModSlots": true,
+    "modSlot": [
+      "cartridge"
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "67102345682fe4ca5f609e89": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": false,
+            "stackObjectsCount": 1
+          },
+          "barters": [
+            {
+              "count": 53099,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_JACKET",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_DRAWER",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_SAFE",
+        "probability": 50
+      }
+    ]
+  },
+  "670fff9e42e5916a0262d77d": {
+    "itemTplToClone": "670fffeedf87b6d12c7c78bf",
+    "parentId": "66f17b4cb59dbccbf12990e6",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "cartridges/gb_cartridge_gray.bundle",
+        "rcid": ""
+      },
+      "romName": "",
+      "cartridgeImage": "linksawakening.png"
+    },
+    "locales": {
+      "en": {
+        "name": "Link's Awakening",
+        "shortName": "LoZ: LA",
+        "description": "The Legend of Zelda: Link's Awakening is a 1993 action-adventure game developed and published by Nintendo for the Game Boy. It is the first installment in The Legend of Zelda series to be released on a handheld game console."
+      }
+    },
+    "fleaPriceRoubles": 34420,
+    "handbookPriceRoubles": 28420,
+    "addtoModSlots": true,
+    "modSlot": [
+      "cartridge"
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "671190feab63071266c9cd9c": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": false,
+            "stackObjectsCount": 1
+          },
+          "barters": [
+            {
+              "count": 1,
+              "_tpl": "670fffcd4734a4b682fea22a"
+            }
+          ]
+        }
+      },
+      "PEACEKEEPER": {
+        "67119003e4fac0f491dbcc44": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": false,
+            "stackObjectsCount": 3
+          },
+          "barters": [
+            {
+              "count": 350,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    },
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_JACKET",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_DRAWER",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_SAFE",
+        "probability": 500
+      }
+    ]
+  },
+  "670fffaf6b4e06516100409d": {
+    "itemTplToClone": "670fffeedf87b6d12c7c78bf",
+    "parentId": "66f17b4cb59dbccbf12990e6",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "cartridges/gb_cartridge_blue.bundle",
+        "rcid": ""
+      },
+      "romName": "",
+      "cartridgeImage": "blueversion.png"
+    },
+    "locales": {
+      "en": {
+        "name": "Pokémon Blue Version",
+        "shortName": "Pokémon Blue Version",
+        "description": "Pokémon Blue Version is a 1996 role-playing video game developed by Game Freak and published by Nintendo for the Game Boy. It's one of the first installments of the Pokémon video game series, first released in Japan as Pocket Monsters Red and Pocket Monsters Green, followed by the special edition Pocket Monsters Blue later that year."
+      }
+    },
+    "fleaPriceRoubles": 37440,
+    "handbookPriceRoubles": 34420,
+    "addtoModSlots": true,
+    "modSlot": [
+      "cartridge"
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "67102330e1c19de651eec9cc": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": false,
+            "stackObjectsCount": 1
+          },
+          "barters": [
+            {
+              "count": 42101,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        },
+        "671191151682ceb6c6e7553a": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": false,
+            "stackObjectsCount": 1
+          },
+          "barters": [
+            {
+              "count": 1,
+              "_tpl": "670fffcd4734a4b682fea22a"
+            }
+          ]
+        }
+      }
+    },
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_JACKET",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_DRAWER",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_SAFE",
+        "probability": 500
+      }
+    ]
+  },
+  "670fffb78eec5b89385cffa4": {
+    "itemTplToClone": "670fffeedf87b6d12c7c78bf",
+    "parentId": "66f17b4cb59dbccbf12990e6",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "cartridges/gb_cartridge_yellow.bundle",
+        "rcid": ""
+      },
+      "romName": "",
+      "cartridgeImage": "yellowversion.png"
+    },
+    "locales": {
+      "en": {
+        "name": "Pokémon Yellow Version",
+        "shortName": "Pokémon Yellow Version",
+        "description": "Two years after Red and Green, Nintendo released Pokémon Yellow, an enhanced version of Red and Blue, in Japan in 1998, and in North America and Europe in 1999 and 2000. The game was designed to resemble the Pokémon anime series, with the player receiving a Pikachu as their starter Pokémon and their rival starting with an Eevee. Some non-player characters resemble those from the anime, including Team Rocket's Jessie and James."
+      }
+    },
+    "fleaPriceRoubles": 42001,
+    "handbookPriceRoubles": 38420,
+    "addtoModSlots": true,
+    "modSlot": [
+      "cartridge"
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "6710233723c30b5d9d81af1c": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": false,
+            "stackObjectsCount": 1
+          },
+          "barters": [
+            {
+              "count": 48990,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        },
+        "671191250a5946e186168ee8": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": false,
+            "stackObjectsCount": 1
+          },
+          "barters": [
+            {
+              "count": 1,
+              "_tpl": "670fffcd4734a4b682fea22a"
+            }
+          ]
+        }
+      }
+    },
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_JACKET",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_DRAWER",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_SAFE",
+        "probability": 500
+      }
+    ]
+  },
+  "670fffc5c461cae5cf389af2": {
+    "itemTplToClone": "670fffeedf87b6d12c7c78bf",
+    "parentId": "66f17b4cb59dbccbf12990e6",
+    "handbookParentId": "5b47574386f77428ca22b2ef",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "cartridges/gb_cartridge_red.bundle",
+        "rcid": ""
+      },
+      "romName": "",
+      "cartridgeImage": "redversion.png"
+    },
+    "locales": {
+      "en": {
+        "name": "Pokémon Red Version",
+        "shortName": "Pokémon Red Version",
+        "description": "Pokémon Red Version is a 1996 role-playing video game developed by Game Freak and published by Nintendo for the Game Boy. It's one of the first installments of the Pokémon video game series, first released in Japan as Pocket Monsters Red and Pocket Monsters Green, followed by the special edition Pocket Monsters Blue later that year."
+      }
+    },
+    "fleaPriceRoubles": 35770,
+    "handbookPriceRoubles": 32420,
+    "addtoModSlots": true,
+    "modSlot": [
+      "cartridge"
+    ],
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "6710233d8a753bf76aecc64a": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": false,
+            "stackObjectsCount": 1
+          },
+          "barters": [
+            {
+              "count": 39887,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        },
+        "6711913984fec3c6db4583bb": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": false,
+            "stackObjectsCount": 1
+          },
+          "barters": [
+            {
+              "count": 1,
+              "_tpl": "670fffcd4734a4b682fea22a"
+            }
+          ]
+        }
+      }
+    },
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_JACKET",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_DRAWER",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_SAFE",
+        "probability": 500
+      }
+    ]
+  }
+}
