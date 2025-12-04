@@ -146,7 +146,7 @@
             <HintPath>..\..\..\EscapeFromTarkov_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
         </Reference>
         <Reference Include="WTT-KomradeKidClient">
-          <HintPath>..\..\WTT-KomradeKid\build\BepInEx\plugins\GameBoyEmulator\WTT-KomradeKidClient.dll</HintPath>
+          <HintPath>..\..\WTT-KomradeKid\build\BepInEx\plugins\WTT-KomradeKidClient\WTT-KomradeKidClient.dll</HintPath>
         </Reference>
     </ItemGroup>
 
